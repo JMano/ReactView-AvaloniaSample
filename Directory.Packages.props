@@ -22,21 +22,16 @@
         <PackageVersion Include="Avalonia.Themes.Fluent" Version="$(AvaloniaVersion)" />
         <PackageVersion Include="Avalonia.Diagnostics" Version="$(AvaloniaVersion)" />
 
+        <PackageVersion Include="ReactViewControl-Avalonia" Version="$(ReactViewVersion)" />
+        <PackageVersion Include="ReactViewControl-Avalonia-ARM64" Version="$(ReactViewVersion)" />
+
         <PackageVersion Include="WebViewControl-Avalonia" Version="$(WebViewVersion)" />
         <PackageVersion Include="WebViewControl-Avalonia-ARM64" Version="$(WebViewVersion)" />
-
-        <PackageVersion Include="WebViewControl-WPF" Version="$(WebViewVersion)" />
-        <PackageVersion Include="WebViewControl-WPF-ARM64" Version="$(WebViewVersion)" />
 
         <PackageVersion Include="ViewGenerator" Version="1.2.1" />
         <PackageVersion Include="ViewGeneratorCore" Version="1.0.229" />
 
         <PackageVersion Include="NLog" Version="4.6.2" />
-        <PackageVersion Include="Microsoft.TypeScript.MSBuild" Version="5.2.2" />
-
-        <PackageVersion Include="nunit" Version="3.12.0" />
-        <PackageVersion Include="NUnit3TestAdapter" Version="3.17.0" />
-        <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="16.6.1" />
 
     </ItemGroup>
 </Project>

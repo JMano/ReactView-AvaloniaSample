@@ -44,11 +44,8 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="ReactViewControl-Avalonia$(PackageSuffix)" />
     <PackageReference Include="WebViewControl-Avalonia$(WebViewPackageSuffix)" />
-  </ItemGroup>
-  
-  <ItemGroup>
-    <ProjectReference Include="..\ReactViewControl.Avalonia\ReactViewControl.Avalonia.csproj" />
   </ItemGroup>
 
   <ItemGroup>
